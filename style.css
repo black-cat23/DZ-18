@@ -1,0 +1,91 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+    }
+
+    .logo{
+        background-color: #EAFEEC;
+    }
+
+    .logo_container{
+        width: 100%;
+        max-width: 1208px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 18px;
+        padding-bottom: 22px;
+        align-items: center ;
+    }
+    .logo_container--content{
+        width: 100%;
+        max-width: 168px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links{
+        background-color: #F1FFF8;
+        
+    }
+
+    .links_container{
+        width: 100%;
+        max-width: 1165px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .links_nav{
+        display: flex;
+    }
+
+    .links_nav  select {
+        border: none;
+    }
+
+
+
+    .links_container--nav{
+        width: 100%;
+        max-width: 566px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links_container--nav--link{
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #20414D;
+        text-decoration: none;   
+    }
+
+    .links_container--contancts  a{
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #20414D;
+        text-decoration: none;
+    }
+
+    .links_container--contancts{
+        width: 100%;
+        max-width: 330px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links_list{
+        display: flex;
+    }
