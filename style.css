@@ -10,6 +10,12 @@
         font-family: Roboto;
     }
 
+    .container{
+        max-width: 1208px;
+        padding-left: 75px;
+        padding-right: 74px;
+    }
+
     .logo{
         background-color: #EAFEEC;
     }
@@ -199,12 +205,13 @@
         
         color: #38CEA8;
         cursor: pointer;
-        margin-left: 650px;
+        margin-left: 500px;
       }
 
       .background_list{
         list-style-type: none;
         width: 100%; 
+        max-width: 1208px;
         height: 500px; 
         background-image: url('img/big-preview\ 1.jpg'); 
         background-size: cover; 
@@ -212,10 +219,40 @@
         background-repeat: no-repeat;
         display: flex;
         padding-left: 75px;
+        gap: 32px;
       }
 
       .background_card{
-        max-width: 384px;
+        max-width: 352px;
         padding-right: 75px;
+        background-color: white;
+        padding: 16px 16px 16px 16px;
+        margin: 0px 0px 108px 0px;
+        
+      }
+
+      .background_card--title{
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: center;
+
 
       }
+
+      .text{
+        margin-bottom: 16px;
+      }
+
+      .green{
+        background-color: #38CEA8;
+        max-height: 8px;
+        max-width: 384px;
+        color: white;
+      }
+
+      .text1{
+        margin-bottom: 32px;
+      }
+
