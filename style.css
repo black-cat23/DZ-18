@@ -6,6 +6,10 @@
         box-sizing: 0;
     }
 
+    .body{
+        font-family: Roboto;
+    }
+
     .logo{
         background-color: #EAFEEC;
     }
@@ -32,7 +36,7 @@
         
     }
 
-    .links_container{
+    .links_container--contancts{
         width: 100%;
         max-width: 1165px;
         margin: 0 auto;
@@ -62,7 +66,6 @@
     }
 
     .links_container--nav--link{
-        font-family: Roboto;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0%;
@@ -71,7 +74,6 @@
     }
 
     .links_container--contancts  a{
-        font-family: Roboto;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0%;
@@ -81,15 +83,98 @@
 
     .links_container--contancts{
         width: 100%;
-        max-width: 330px;
+         /* max-width: 33px;  */
         display: flex;
-        /* justify-content: space-between; */
+         justify-content: space-between; 
     }
 
-    /* .links_list{
+    .links_list{
+        gap: 31px;
         display: flex;
-    } */
+        list-style-type: none;
+    } 
 
     .links_nav--list{
+        gap: 22px;
+        list-style-type: none;
         display: flex
+        
+    }
+
+    .main{
+        background-color: #F1F3F2;
+        
+    }
+
+    .hero_container{
+        display: flex;
+    }
+
+    .hero_container--shape{
+        padding: 72px 0 222px 179px;
+    }
+
+    .hero_container--shape--title{
+        padding-bottom: 16px;
+    }
+
+    .hero_container--shape--title--h1{
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+
+    .hero_container--shape--title--text{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+
+    }
+
+    .button_list{
+        list-style-type: none;
+        gap: 18;
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    .button{
+        border-radius: 50%;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px; 
+        font-size: 16px; 
+        cursor: pointer;
+        color: white;
+    }
+
+    .button_1{
+        background-color: #FF3B30;
+        max-width: 234px;
+
+    }
+
+    .button_2{
+        background-color: #34C759;
+        max-width: 165px;
+
+    }
+
+    .works_container--list1--item--titleH4{
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        
+    }
+
+    .works_container--list1{
+        display: flex ;
+        justify-content: center;
     }
