@@ -89,7 +89,6 @@
 
     .links_container--contancts{
         width: 100%;
-         /* max-width: 33px;  */
         display: flex;
          justify-content: space-between; 
     }
@@ -112,27 +111,26 @@
         
     }
 
-    .hero_container{
-        display: flex;
+    hero_container{
+        /* padding: 104x 72px 16px 75px; */
+
     }
 
-    .hero_container--shape{
-        padding: 72px 0 222px 179px;
+    .hero_container--shape {
+        width: 100%; 
+        max-width: 1208px;
+        height: 553px; 
+        background-image: url('img/07034013-1 1.png'); 
+        background-size: 824px 553px; /* Фіксований розмір бекграунда */
+        background-position: right center; /* Розташування зображення праворуч */
+        background-repeat: no-repeat;
+
     }
 
     .hero_container--shape--title{
-        padding-bottom: 16px;
-            list-style-type: none;
-            width: 100%; 
-            max-width: 1208px;
-            height: 553px; 
-            background-image: url('img/07034013-1 1.png'); 
-            background-size: cover; 
-            background-position: right;
-            background-repeat: no-repeat;
-            display: flex;
-            padding-left: 75px;
-            gap: 32px;
+        padding: 72px 0 16px 0;
+        max-width: 488px;
+            
 
     }
 
@@ -141,7 +139,6 @@
         line-height: 56px;
         letter-spacing: 0%;
         text-align: center;
-        padding-bottom: 16px;
     }
 
     .hero_container--shape--title--text{
@@ -153,22 +150,22 @@
     }
 
     .button_list{
+        max-width: 488px;
         list-style-type: none;
         gap: 18;
         display: flex;
-        justify-content: space-evenly
+        justify-content: space-evenly;
     }
 
     .button{
-        border-radius: 50%;
+        /* border-radius: 20%; */
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0%;
         text-align: center;
         padding: 10px 20px;
         border: none;
-        border-radius: 20px; 
-        font-size: 16px; 
+        border-radius: 32px; 
         cursor: pointer;
         color: white;
     }
