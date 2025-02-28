@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header_conteiner--link{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #707070;
+}
+
+.fresly_conteiner--title{
+    font-family: Exo 2;
+font-size: 48px;
+font-weight: 600;
+line-height: 57.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #779611;
+}
+.fresly_conteiner--text{
+    font-family: Exo 2;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+color: #000000;
+}
+.subcription_conteiner{
+
+}
